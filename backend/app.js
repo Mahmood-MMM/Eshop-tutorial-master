@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://eshop-tutorial-master-indol.vercel.app/',
   credentials: true
 }));
 
